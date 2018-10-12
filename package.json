@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "description": "a tool can optipng",
   "main": "index.js",
+  "bin": {
+    "miniPNG": "./bin/cli.sh"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": ". ./scripts/install.sh"
   },
   "keywords": [
     "optimeze",
     "png",
     "compress"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tzxhy/optipng"
+  },
   "author": "Tzxhy",
   "license": "MIT"
 }
