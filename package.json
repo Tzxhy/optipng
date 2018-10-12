@@ -1,0 +1,16 @@
+{
+  "name": "optipng",
+  "version": "1.0.0",
+  "description": "a tool can optipng",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "optimeze",
+    "png",
+    "compress"
+  ],
+  "author": "Tzxhy",
+  "license": "MIT"
+}
